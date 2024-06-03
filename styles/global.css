@@ -1,0 +1,75 @@
+* {
+  font-family: "FiraCode";
+}
+
+.wrapper {
+  background-color: transparent;
+  padding: 13px 8px;
+  border: 1px solid black;
+  margin:8px auto;
+  border-radius: 5px;
+  max-width: 210mm;
+}
+
+/** Header (Name and Contacts) **/
+.fullName {
+  background-color: black;
+  color: #fff;
+  padding: 5px;
+  font-size: 34px;
+} .fullName > b {
+  font-weight: bolder;
+}
+.latest-gig {
+  display: block;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-size: 21px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+} .contacts a {
+  color: darkblue;
+  text-decoration: none;
+} .contacts li {
+  margin-right: 20px;
+}
+
+
+/** Two Columns **/
+.two-columns {
+  padding-top:10px;
+  display: flex;
+  flex-direction: row;
+} .first-column {
+  flex: 2
+} .second-column {
+  flex: 1
+}
+.section-title {
+  padding-top: 21px;
+  font-size: 21px;
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+  color: orangered;
+}
+.section-item-title {
+  margin-top: 17px;
+  display: block;
+  font-size: 21px;
+  font-weight: bold;
+} .section-item-date, .section-item-location, .section-item-subtitle {
+  font-size: 13px;
+  color:#666;
+}
+.job-desc, .tech-stack {
+  font-size: 13px;
+}
+
+
+
+@font-face { font-family: "FiraCode"; src: url('../assets/font/FiraCode-Regular.otf'); } 
