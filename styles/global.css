@@ -68,6 +68,13 @@
 }
 .job-desc, .tech-stack {
   font-size: 13px;
+  display:block;
+}
+.job-desc ul {
+  padding-left: 20px;
+}
+.job-desc ul li {
+  list-style-type: disc;
 }
 
 
